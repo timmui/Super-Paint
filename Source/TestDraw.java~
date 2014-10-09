@@ -1,0 +1,12 @@
+import javax.swing.JFrame; 
+  
+public class TestDraw 
+{ 
+    public static void main( String args[] ) 
+    {  
+        DrawFrame  drawFrame  = new DrawFrame ();  
+        drawFrame .setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE ); 
+        drawFrame .setSize( 600, 600); // set frame size 
+        drawFrame .setVisible( true ); // display frame 
+    } // end main 
+} // end class TestDraw
