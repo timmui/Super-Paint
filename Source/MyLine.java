@@ -2,7 +2,6 @@ import java.awt.Color;
 import java.awt.Graphics; 
 
 /** MyLine
-  * ICS4U1-14
   * Description: SuperPaint Assignment 
   *              Draws line shapes.
   * 

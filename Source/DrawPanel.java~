@@ -8,11 +8,11 @@ import javax.swing.JLabel;
 
 /** DrawPanel
   * ICS4U1-14
-  * Description: Unit 2 Assignment 
-  *              DrawPanel for TestDraw. Instantiates all shapes generated in subclasses.
+  * Description: SuperPaint Assignment 
+  *              DrawPanel for SuperPaint. Instantiates all shapes generated in subclasses.
   * 
   * @author Timothy Mui
-  * @version Feb 11, 2014
+  * @version Apr. 27, 2014
   */
 
 public class DrawPanel extends JPanel 
@@ -44,7 +44,6 @@ public class DrawPanel extends JPanel
     } // end DrawPanel 
     
     // ------ Handler ------
-    
     private class MouseHandler extends MouseAdapter  
     {   
         public void mousePressed( MouseEvent event ) 
@@ -67,6 +66,7 @@ public class DrawPanel extends JPanel
             
             
         } // end method mousePressed 
+        
         
         public void mouseReleased( MouseEvent event ) 
         { 
@@ -126,7 +126,7 @@ public class DrawPanel extends JPanel
     }
     
     // ------ Other Methods ------
-    public void clearLastShape(){
+    public void clearLastShape(){ // Clears last shape
         if (!(shapeObjects.isEmpty())){
             clearedObject = shapeObjects.get(shapeObjects.size()-1);
             shapeObjects.remove(shapeObjects.size()-1);
@@ -134,7 +134,7 @@ public class DrawPanel extends JPanel
         repaint ();
     }
     
-    public void redoLastShape(){
+    public void redoLastShape(){ // Redos last shape
         if (clearedObject != null){
             shapeObjects.add(clearedObject);
             clearedObject = null;
@@ -142,7 +142,7 @@ public class DrawPanel extends JPanel
         repaint ();
     }
     
-    public void clearDrawing(){
+    public void clearDrawing(){ // Clears drawing
         shapeObjects.clear();
         repaint ();
     }

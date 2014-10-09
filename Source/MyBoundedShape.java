@@ -2,7 +2,6 @@ import java.awt.Color;
 import java.awt.Graphics; 
 
 /** MyBoundedShape
-  * ICS4U1-14
   * Description: SuperPaint Assignment 
   *              Superclass for shapes that are 2D (Bounded). Inherits from MyShape.
   * 

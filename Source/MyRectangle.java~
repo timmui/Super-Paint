@@ -3,11 +3,11 @@ import java.awt.Graphics;
 
 /** MyRectangle
   * ICS4U1-14
-  * Description: Unit 2 Assignment 
+  * Description: SuperPaint Assignment 
   *              Draws rectangle shapes.
   * 
   * @author Timothy Mui
-  * @version Feb 11, 2014
+  * @version Apr. 27, 2014
   */
 
 public class MyRectangle extends MyBoundedShape

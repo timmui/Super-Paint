@@ -32,10 +32,10 @@ public class DrawFrame extends JFrame
     private JButton undoButton;
     private JButton redoButton;
     private JButton clearButton;
-    private JComboBox colorCombo;
+    private JComboBox <String> colorCombo;
     private String [] colors = {"Black","Blue","Cyan","Dark Gray","Gray","Green","Light Gray",
         "Magenta","Orange","Pink","Red","White","Yellow"};
-    private JComboBox shapeCombo;
+    private JComboBox <String> shapeCombo;
     private String [] shapes = {"Line","Rectangle","Oval"};
     private JCheckBox filledBox;
     private JLabel statusLabel;
@@ -59,8 +59,8 @@ public class DrawFrame extends JFrame
         northPanel.add (clearButton);
         
         // ComboBoxes
-        colorCombo = new JComboBox (colors);
-        shapeCombo = new JComboBox (shapes);
+        colorCombo = new JComboBox <String> (colors);
+        shapeCombo = new JComboBox <String> (shapes);
         
         northPanel.add (colorCombo);
         northPanel.add (shapeCombo);

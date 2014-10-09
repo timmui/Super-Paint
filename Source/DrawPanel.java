@@ -7,7 +7,6 @@ import javax.swing.JPanel;
 import javax.swing.JLabel; 
 
 /** DrawPanel
-  * ICS4U1-14
   * Description: SuperPaint Assignment 
   *              DrawPanel for SuperPaint. Instantiates all shapes generated in subclasses.
   * 

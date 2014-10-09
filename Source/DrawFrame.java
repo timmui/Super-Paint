@@ -17,7 +17,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 /** DrawFrame
-  * ICS4U1-14
   * Description: SuperPaint Assignment 
   *              DrawFrame for SuperPaint. Instantiates and handles GUI.
   * 

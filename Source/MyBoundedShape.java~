@@ -3,11 +3,11 @@ import java.awt.Graphics;
 
 /** MyBoundedShape
   * ICS4U1-14
-  * Description: Unit 2 Assignment 
+  * Description: SuperPaint Assignment 
   *              Superclass for shapes that are 2D (Bounded). Inherits from MyShape.
   * 
   * @author Timothy Mui
-  * @version Feb 11, 2014
+  * @version Apr. 27, 2014
   */
 
 abstract class MyBoundedShape extends MyShape

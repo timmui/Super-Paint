@@ -1,7 +1,6 @@
 import javax.swing.JFrame; 
 
 /** TestDraw
-  * ICS4U1-14
   * Description: SuperPaint Assignment 
   *              TestDraw for SuperPaint. Instantiates GUI.
   * 
