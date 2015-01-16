@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 
 public class TestDraw 
 { 
-    public static void main( String args[] ) 
+    public static void main( String [] args ) 
     {  
         DrawFrame  drawFrame  = new DrawFrame ();  // new DrawFrame object
         drawFrame .setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );   
